@@ -1,0 +1,24 @@
+version: "3.2"
+
+services:
+  #MariaDB Container
+  mariadb:
+    image: mariadb:10.7
+    container_name: mariadb
+    hostname: mariadb
+    env_file:
+      - ./mariadb.env
+    restart: always
+
+  #GLPI Container
+  glpi:
+    image: diouxx/glpi
+    container_name: glpi
+    hostname: glpi
+    ports:
+      - "80:80"
+    volumes:
+      - C:\Users\bisrat\Ground-projects\glpi\composed\src:/var/www/html/glpi
+    environment:
+      - TIMEZONE=Europe/Brussels
+    restart: always

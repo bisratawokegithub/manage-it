@@ -1,0 +1,261 @@
+[2024-03-15 10:05:59] glpiphplog.WARNING: Test logger  
+[2024-03-15 18:48:21] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): php_network_getaddresses: getaddrinfo for mariadb failed: Temporary failure in name resolution in /var/www/html/glpi/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:129                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  front/cron.php:44                                  include()
+  
+[2024-03-15 18:48:23] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo for mariadb failed: Temporary failure in name resolution in /var/www/html/glpi/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:129                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  front/cron.php:44                                  include()
+  
+[2024-03-15 19:02:19] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): php_network_getaddresses: getaddrinfo for mariadb failed: Temporary failure in name resolution in /var/www/html/glpi/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:129                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  front/cron.php:44                                  include()
+  
+[2024-03-15 19:02:19] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo for mariadb failed: Temporary failure in name resolution in /var/www/html/glpi/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:129                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  front/cron.php:44                                  include()
+  
+[2024-03-18 12:12:45] glpiphplog.CRITICAL:   *** Uncaught Exception ParseError: syntax error, unexpected token "return" in /var/www/html/glpi/src/Html.php at line 6266
+  Backtrace :
+  inc/includes.php:61                                glpi_autoload()
+  index.php:87                                       include()
+  public/index.php:82                                require()
+  
+[2024-03-18 12:20:31] glpiphplog.CRITICAL:   *** Uncaught Exception ParseError: syntax error, unexpected token "%" in /var/www/html/glpi/files/_cache/templates/20/208f0f48aa074dfc2574b1e9a84276fc.php at line 140
+  Backtrace :
+  vendor/twig/twig/src/Environment.php:345           Twig\Cache\FilesystemCache->load()
+  vendor/twig/twig/src/Environment.php:312           Twig\Environment->loadTemplate()
+  src/Application/View/TemplateRenderer.php:184      Twig\Environment->load()
+  index.php:166                                      Glpi\Application\View\TemplateRenderer->display()
+  public/index.php:82                                require()
+  
+[2024-03-18 12:20:44] glpiphplog.CRITICAL:   *** Uncaught Exception ParseError: syntax error, unexpected token "%" in /var/www/html/glpi/files/_cache/templates/20/208f0f48aa074dfc2574b1e9a84276fc.php at line 140
+  Backtrace :
+  vendor/twig/twig/src/Environment.php:345           Twig\Cache\FilesystemCache->load()
+  vendor/twig/twig/src/Environment.php:312           Twig\Environment->loadTemplate()
+  src/Application/View/TemplateRenderer.php:184      Twig\Environment->load()
+  index.php:166                                      Glpi\Application\View\TemplateRenderer->display()
+  public/index.php:82                                require()
+  
+[2024-03-18 12:58:17] glpiphplog.CRITICAL:   *** Uncaught Exception ParseError: syntax error, unexpected token "%" in /var/www/html/glpi/files/_cache/templates/20/208f0f48aa074dfc2574b1e9a84276fc.php at line 140
+  Backtrace :
+  vendor/twig/twig/src/Environment.php:345           Twig\Cache\FilesystemCache->load()
+  vendor/twig/twig/src/Environment.php:312           Twig\Environment->loadTemplate()
+  src/Application/View/TemplateRenderer.php:184      Twig\Environment->load()
+  index.php:166                                      Glpi\Application\View\TemplateRenderer->display()
+  public/index.php:82                                require()
+  
+[2024-03-18 13:00:26] glpiphplog.CRITICAL:   *** Uncaught Exception ParseError: syntax error, unexpected token "%" in /var/www/html/glpi/files/_cache/templates/20/208f0f48aa074dfc2574b1e9a84276fc.php at line 142
+  Backtrace :
+  vendor/twig/twig/src/Environment.php:345           Twig\Cache\FilesystemCache->load()
+  vendor/twig/twig/src/Environment.php:312           Twig\Environment->loadTemplate()
+  src/Application/View/TemplateRenderer.php:184      Twig\Environment->load()
+  index.php:166                                      Glpi\Application\View\TemplateRenderer->display()
+  public/index.php:82                                require()
+  
+[2024-03-18 13:01:05] glpiphplog.CRITICAL:   *** Uncaught Exception ParseError: syntax error, unexpected integer "76" in /var/www/html/glpi/files/_cache/templates/20/208f0f48aa074dfc2574b1e9a84276fc.php at line 150
+  Backtrace :
+  vendor/twig/twig/src/Environment.php:345           Twig\Cache\FilesystemCache->load()
+  vendor/twig/twig/src/Environment.php:312           Twig\Environment->loadTemplate()
+  src/Application/View/TemplateRenderer.php:184      Twig\Environment->load()
+  index.php:166                                      Glpi\Application\View\TemplateRenderer->display()
+  public/index.php:82                                require()
+  
+[2024-03-18 13:06:02] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\SyntaxError): "Unexpected "comment" tag (expecting closing tag for the "if" tag defined near line 38)." in template "/var/www/html/glpi/templates/layout/parts/user_header.html.twig" at line 91
+  Backtrace :
+  .../twig/twig/src/TokenParser/IfTokenParser.php:41 Twig\Parser->subparse()
+  vendor/twig/twig/src/Parser.php:170                Twig\TokenParser\IfTokenParser->parse()
+  vendor/twig/twig/src/Parser.php:83                 Twig\Parser->subparse()
+  vendor/twig/twig/src/Environment.php:490           Twig\Parser->parse()
+  vendor/twig/twig/src/Environment.php:518           Twig\Environment->parse()
+  vendor/twig/twig/src/Environment.php:350           Twig\Environment->compileSource()
+  vendor/twig/twig/src/Environment.php:312           Twig\Environment->loadTemplate()
+  vendor/twig/twig/src/Environment.php:435           Twig\Environment->load()
+  .../twig/twig/src/Extension/CoreExtension.php:1340 Twig\Environment->resolveTemplate()
+  ...tes/8e/8edc23ad68bec57635cc85c90db465ee.php:122 twig_include()
+  vendor/twig/twig/src/Template.php:394              __TwigTemplate_22b2985d4efe05ac89f985d6e6cc8312->doDisplay()
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Html.php:1727                                  Glpi\Application\View\TemplateRenderer->display()
+  front/preference.php:60                            Html::header()
+  public/index.php:82                                require()
+  
+[2024-03-18 13:06:12] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\SyntaxError): "Unexpected "comment" tag (expecting closing tag for the "if" tag defined near line 38)." in template "/var/www/html/glpi/templates/layout/parts/user_header.html.twig" at line 91
+  Backtrace :
+  .../twig/twig/src/TokenParser/IfTokenParser.php:41 Twig\Parser->subparse()
+  vendor/twig/twig/src/Parser.php:170                Twig\TokenParser\IfTokenParser->parse()
+  vendor/twig/twig/src/Parser.php:83                 Twig\Parser->subparse()
+  vendor/twig/twig/src/Environment.php:490           Twig\Parser->parse()
+  vendor/twig/twig/src/Environment.php:518           Twig\Environment->parse()
+  vendor/twig/twig/src/Environment.php:350           Twig\Environment->compileSource()
+  vendor/twig/twig/src/Environment.php:312           Twig\Environment->loadTemplate()
+  vendor/twig/twig/src/Environment.php:435           Twig\Environment->load()
+  .../twig/twig/src/Extension/CoreExtension.php:1340 Twig\Environment->resolveTemplate()
+  ...tes/8e/8edc23ad68bec57635cc85c90db465ee.php:122 twig_include()
+  vendor/twig/twig/src/Template.php:394              __TwigTemplate_22b2985d4efe05ac89f985d6e6cc8312->doDisplay()
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Html.php:1727                                  Glpi\Application\View\TemplateRenderer->display()
+  front/central.php:89                               Html::header()
+  public/index.php:82                                require()
+  
+[2024-03-18 13:06:16] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\SyntaxError): "Unexpected "comment" tag (expecting closing tag for the "if" tag defined near line 38)." in template "/var/www/html/glpi/templates/layout/parts/user_header.html.twig" at line 91
+  Backtrace :
+  .../twig/twig/src/TokenParser/IfTokenParser.php:41 Twig\Parser->subparse()
+  vendor/twig/twig/src/Parser.php:170                Twig\TokenParser\IfTokenParser->parse()
+  vendor/twig/twig/src/Parser.php:83                 Twig\Parser->subparse()
+  vendor/twig/twig/src/Environment.php:490           Twig\Parser->parse()
+  vendor/twig/twig/src/Environment.php:518           Twig\Environment->parse()
+  vendor/twig/twig/src/Environment.php:350           Twig\Environment->compileSource()
+  vendor/twig/twig/src/Environment.php:312           Twig\Environment->loadTemplate()
+  vendor/twig/twig/src/Environment.php:435           Twig\Environment->load()
+  .../twig/twig/src/Extension/CoreExtension.php:1340 Twig\Environment->resolveTemplate()
+  ...tes/8e/8edc23ad68bec57635cc85c90db465ee.php:122 twig_include()
+  vendor/twig/twig/src/Template.php:394              __TwigTemplate_22b2985d4efe05ac89f985d6e6cc8312->doDisplay()
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Html.php:1727                                  Glpi\Application\View\TemplateRenderer->display()
+  front/central.php:89                               Html::header()
+  public/index.php:82                                require()
+  
+[2024-03-18 13:06:21] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\SyntaxError): "Unexpected "comment" tag (expecting closing tag for the "if" tag defined near line 38)." in template "/var/www/html/glpi/templates/layout/parts/user_header.html.twig" at line 91
+  Backtrace :
+  .../twig/twig/src/TokenParser/IfTokenParser.php:41 Twig\Parser->subparse()
+  vendor/twig/twig/src/Parser.php:170                Twig\TokenParser\IfTokenParser->parse()
+  vendor/twig/twig/src/Parser.php:83                 Twig\Parser->subparse()
+  vendor/twig/twig/src/Environment.php:490           Twig\Parser->parse()
+  vendor/twig/twig/src/Environment.php:518           Twig\Environment->parse()
+  vendor/twig/twig/src/Environment.php:350           Twig\Environment->compileSource()
+  vendor/twig/twig/src/Environment.php:312           Twig\Environment->loadTemplate()
+  vendor/twig/twig/src/Environment.php:435           Twig\Environment->load()
+  .../twig/twig/src/Extension/CoreExtension.php:1340 Twig\Environment->resolveTemplate()
+  ...tes/8e/8edc23ad68bec57635cc85c90db465ee.php:122 twig_include()
+  vendor/twig/twig/src/Template.php:394              __TwigTemplate_22b2985d4efe05ac89f985d6e6cc8312->doDisplay()
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Html.php:1727                                  Glpi\Application\View\TemplateRenderer->display()
+  front/central.php:89                               Html::header()
+  public/index.php:82                                require()
+  
+[2024-03-21 08:24:07] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): php_network_getaddresses: getaddrinfo for mariadb failed: No such host is known.  in C:\Users\bisrat\Ground-projects\glpi\composed\src\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:416                           DBmysql->__construct()
+  src\DBConnection.php:510                           DBConnection::switchToMaster()
+  inc\config.php:127                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  
+[2024-03-21 08:24:07] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo for mariadb failed: No such host is known.  in C:\Users\bisrat\Ground-projects\glpi\composed\src\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:416                           DBmysql->__construct()
+  src\DBConnection.php:510                           DBConnection::switchToMaster()
+  inc\config.php:127                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  
+[2024-03-21 08:24:07] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "glpilanguage" in C:\Users\bisrat\Ground-projects\glpi\composed\src\src\Html.php at line 1126
+  Backtrace :
+  src\Html.php:2073                                  Html::includeHeader()
+  src\DBConnection.php:610                           Html::nullHeader()
+  src\DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc\config.php:127                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  
+[2024-03-21 08:24:07] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "" in C:\Users\bisrat\Ground-projects\glpi\composed\src\src\Html.php at line 1126
+  Backtrace :
+  src\Html.php:2073                                  Html::includeHeader()
+  src\DBConnection.php:610                           Html::nullHeader()
+  src\DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc\config.php:127                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  
+[2024-03-21 08:24:07] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in C:\Users\bisrat\Ground-projects\glpi\composed\src\src\Html.php at line 1126
+  Backtrace :
+  src\Html.php:2073                                  Html::includeHeader()
+  src\DBConnection.php:610                           Html::nullHeader()
+  src\DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc\config.php:127                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  
+[2024-03-21 09:07:24] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): Error while reading greeting packet. PID=6452 in C:\Users\bisrat\Ground-projects\glpi\composed\src\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:416                           DBmysql->__construct()
+  src\DBConnection.php:510                           DBConnection::switchToMaster()
+  inc\config.php:127                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  
+[2024-03-21 09:07:24] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2006): MySQL server has gone away in C:\Users\bisrat\Ground-projects\glpi\composed\src\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:416                           DBmysql->__construct()
+  src\DBConnection.php:510                           DBConnection::switchToMaster()
+  inc\config.php:127                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  
+[2024-03-21 09:07:24] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "glpilanguage" in C:\Users\bisrat\Ground-projects\glpi\composed\src\src\Html.php at line 1126
+  Backtrace :
+  src\Html.php:2073                                  Html::includeHeader()
+  src\DBConnection.php:610                           Html::nullHeader()
+  src\DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc\config.php:127                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  
+[2024-03-21 09:07:24] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "" in C:\Users\bisrat\Ground-projects\glpi\composed\src\src\Html.php at line 1126
+  Backtrace :
+  src\Html.php:2073                                  Html::includeHeader()
+  src\DBConnection.php:610                           Html::nullHeader()
+  src\DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc\config.php:127                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  
+[2024-03-21 09:07:24] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in C:\Users\bisrat\Ground-projects\glpi\composed\src\src\Html.php at line 1126
+  Backtrace :
+  src\Html.php:2073                                  Html::includeHeader()
+  src\DBConnection.php:610                           Html::nullHeader()
+  src\DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc\config.php:127                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  
