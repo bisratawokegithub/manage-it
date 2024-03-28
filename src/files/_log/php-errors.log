@@ -259,3 +259,34 @@
   inc\includes.php:58                                include_once()
   index.php:87                                       include()
   
+[2024-03-25 09:53:39] glpiphplog.WARNING: Test logger  
+[2024-03-28 12:11:55] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\SyntaxError): "Unexpected "comment" tag (expecting closing tag for the "if" tag defined near line 74)." in template "/var/www/html/glpi/templates/pages/login.html.twig" at line 74
+  Backtrace :
+  .../twig/twig/src/TokenParser/IfTokenParser.php:41 Twig\Parser->subparse()
+  vendor/twig/twig/src/Parser.php:170                Twig\TokenParser\IfTokenParser->parse()
+  ...ig/twig/src/TokenParser/BlockTokenParser.php:47 Twig\Parser->subparse()
+  vendor/twig/twig/src/Parser.php:170                Twig\TokenParser\BlockTokenParser->parse()
+  vendor/twig/twig/src/Parser.php:83                 Twig\Parser->subparse()
+  vendor/twig/twig/src/Environment.php:490           Twig\Parser->parse()
+  vendor/twig/twig/src/Environment.php:518           Twig\Environment->parse()
+  vendor/twig/twig/src/Environment.php:350           Twig\Environment->compileSource()
+  vendor/twig/twig/src/Environment.php:312           Twig\Environment->loadTemplate()
+  src/Application/View/TemplateRenderer.php:184      Twig\Environment->load()
+  index.php:166                                      Glpi\Application\View\TemplateRenderer->display()
+  public/index.php:82                                require()
+  
+[2024-03-28 12:12:19] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\SyntaxError): "Unexpected "comment" tag (expecting closing tag for the "if" tag defined near line 74)." in template "/var/www/html/glpi/templates/pages/login.html.twig" at line 74
+  Backtrace :
+  .../twig/twig/src/TokenParser/IfTokenParser.php:41 Twig\Parser->subparse()
+  vendor/twig/twig/src/Parser.php:170                Twig\TokenParser\IfTokenParser->parse()
+  ...ig/twig/src/TokenParser/BlockTokenParser.php:47 Twig\Parser->subparse()
+  vendor/twig/twig/src/Parser.php:170                Twig\TokenParser\BlockTokenParser->parse()
+  vendor/twig/twig/src/Parser.php:83                 Twig\Parser->subparse()
+  vendor/twig/twig/src/Environment.php:490           Twig\Parser->parse()
+  vendor/twig/twig/src/Environment.php:518           Twig\Environment->parse()
+  vendor/twig/twig/src/Environment.php:350           Twig\Environment->compileSource()
+  vendor/twig/twig/src/Environment.php:312           Twig\Environment->loadTemplate()
+  src/Application/View/TemplateRenderer.php:184      Twig\Environment->load()
+  index.php:166                                      Glpi\Application\View\TemplateRenderer->display()
+  public/index.php:82                                require()
+  

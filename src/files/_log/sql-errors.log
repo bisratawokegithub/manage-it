@@ -154,3 +154,185 @@
   inc\includes.php:58                                include_once()
   index.php:87                                       include()
   {"user":"@DESKTOP-P1J07M9"} 
+[2024-03-25 09:27:16] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs`
+  Error: Table 'glpidb.glpi_configs' doesn't exist
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Config.php:2976                                DBmysql->request()
+  inc/config.php:133                                 Config::loadLegacyConfiguration()
+  inc/includes.php:58                                include_once()
+  index.php:87                                       include()
+  public/index.php:82                                require()
+  {"user":"@glpi"} 
+[2024-03-25 09:27:18] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs`
+  Error: Table 'glpidb.glpi_configs' doesn't exist
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Config.php:2976                                DBmysql->request()
+  inc/config.php:133                                 Config::loadLegacyConfiguration()
+  inc/includes.php:58                                include_once()
+  index.php:87                                       include()
+  public/index.php:82                                require()
+  {"user":"@glpi"} 
+[2024-03-25 09:28:02] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs`
+  Error: Table 'glpidb.glpi_configs' doesn't exist
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Config.php:2976                                DBmysql->request()
+  inc/config.php:133                                 Config::loadLegacyConfiguration()
+  inc/includes.php:58                                include_once()
+  front/cron.php:44                                  include()
+  {"user":"@glpi"} 
+[2024-03-25 09:30:02] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs`
+  Error: Table 'glpidb.glpi_configs' doesn't exist
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Config.php:2976                                DBmysql->request()
+  inc/config.php:133                                 Config::loadLegacyConfiguration()
+  inc/includes.php:58                                include_once()
+  front/cron.php:44                                  include()
+  {"user":"@glpi"} 
+[2024-03-25 09:32:02] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs`
+  Error: Table 'glpidb.glpi_configs' doesn't exist
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Config.php:2976                                DBmysql->request()
+  inc/config.php:133                                 Config::loadLegacyConfiguration()
+  inc/includes.php:58                                include_once()
+  front/cron.php:44                                  include()
+  {"user":"@glpi"} 
+[2024-03-25 09:34:02] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs`
+  Error: Table 'glpidb.glpi_configs' doesn't exist
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Config.php:2976                                DBmysql->request()
+  inc/config.php:133                                 Config::loadLegacyConfiguration()
+  inc/includes.php:58                                include_once()
+  front/cron.php:44                                  include()
+  {"user":"@glpi"} 
+[2024-03-25 09:36:02] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs`
+  Error: Table 'glpidb.glpi_configs' doesn't exist
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Config.php:2976                                DBmysql->request()
+  inc/config.php:133                                 Config::loadLegacyConfiguration()
+  inc/includes.php:58                                include_once()
+  front/cron.php:44                                  include()
+  {"user":"@glpi"} 
+[2024-03-25 09:38:02] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs`
+  Error: Table 'glpidb.glpi_configs' doesn't exist
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Config.php:2976                                DBmysql->request()
+  inc/config.php:133                                 Config::loadLegacyConfiguration()
+  inc/includes.php:58                                include_once()
+  front/cron.php:44                                  include()
+  {"user":"@glpi"} 
+[2024-03-25 09:40:02] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs`
+  Error: Table 'glpidb.glpi_configs' doesn't exist
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Config.php:2976                                DBmysql->request()
+  inc/config.php:133                                 Config::loadLegacyConfiguration()
+  inc/includes.php:58                                include_once()
+  front/cron.php:44                                  include()
+  {"user":"@glpi"} 
+[2024-03-25 09:42:03] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs`
+  Error: Table 'glpidb.glpi_configs' doesn't exist
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Config.php:2976                                DBmysql->request()
+  inc/config.php:133                                 Config::loadLegacyConfiguration()
+  inc/includes.php:58                                include_once()
+  front/cron.php:44                                  include()
+  {"user":"@glpi"} 
+[2024-03-25 09:44:02] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs`
+  Error: Table 'glpidb.glpi_configs' doesn't exist
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Config.php:2976                                DBmysql->request()
+  inc/config.php:133                                 Config::loadLegacyConfiguration()
+  inc/includes.php:58                                include_once()
+  front/cron.php:44                                  include()
+  {"user":"@glpi"} 
+[2024-03-25 09:46:03] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs`
+  Error: Table 'glpidb.glpi_configs' doesn't exist
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Config.php:2976                                DBmysql->request()
+  inc/config.php:133                                 Config::loadLegacyConfiguration()
+  inc/includes.php:58                                include_once()
+  front/cron.php:44                                  include()
+  {"user":"@glpi"} 
+[2024-03-25 09:48:02] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs`
+  Error: Table 'glpidb.glpi_configs' doesn't exist
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Config.php:2976                                DBmysql->request()
+  inc/config.php:133                                 Config::loadLegacyConfiguration()
+  inc/includes.php:58                                include_once()
+  front/cron.php:44                                  include()
+  {"user":"@glpi"} 
+[2024-03-25 09:50:02] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs`
+  Error: Table 'glpidb.glpi_configs' doesn't exist
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Config.php:2976                                DBmysql->request()
+  inc/config.php:133                                 Config::loadLegacyConfiguration()
+  inc/includes.php:58                                include_once()
+  front/cron.php:44                                  include()
+  {"user":"@glpi"} 
+[2024-03-25 09:52:03] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs`
+  Error: Table 'glpidb.glpi_configs' doesn't exist
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Config.php:2976                                DBmysql->request()
+  inc/config.php:133                                 Config::loadLegacyConfiguration()
+  inc/includes.php:58                                include_once()
+  front/cron.php:44                                  include()
+  {"user":"@glpi"} 

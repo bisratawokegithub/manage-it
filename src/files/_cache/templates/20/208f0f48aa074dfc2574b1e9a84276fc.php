@@ -70,7 +70,7 @@ class __TwigTemplate_43ed71e773a8f32b6c7a7ebacca06b0e extends Template
             <div class=\"card-header mb-4\">
                <h2 class=\"mx-auto\">";
         // line 45
-        echo twig_escape_filter($this->env, __("Sign to your account"), "html", null, true);
+        echo twig_escape_filter($this->env, __("Login to your account"), "html", null, true);
         echo "</h2>
             </div>
             <div class=\"mb-3\">
@@ -135,138 +135,120 @@ class __TwigTemplate_43ed71e773a8f32b6c7a7ebacca06b0e extends Template
         }
         // line 72
         echo "
+           
+
             ";
-        // line 73
-        if ($this->extensions['Glpi\Application\View\Extension\ConfigExtension']->config("display_login_source")) {
-            // line 74
-            echo "               <div class=\"mb-3\">
-                  <label class=\"form-label\" for=\"dropdown_auth";
-            // line 75
-            echo twig_escape_filter($this->env, ($context["rand"] ?? null), "html", null, true);
-            echo "\">";
-            echo twig_escape_filter($this->env, __("Login source"), "html", null, true);
-            echo "</label>
-                  ";
-            // line 76
-            echo ($context["auth_dropdown_login"] ?? null);
-            echo "
-               </div>
-            ";
-        }  
-        // line 79
-        echo "
-            ";
-        // line 80
+        // line 75
         if ($this->extensions['Glpi\Application\View\Extension\ConfigExtension']->config("login_remember_time")) {
-            // line 81
+            // line 76
             echo "               <div class=\"mb-2\">
                   <label class=\"form-check\" for=\"login_remember\">
                      <input type=\"checkbox\" class=\"form-check-input\" id=\"login_remember\" name=\"";
-            // line 83
+            // line 78
             echo twig_escape_filter($this->env, ($context["rmbfield"] ?? null), "html", null, true);
             echo "\" ";
             echo (($this->extensions['Glpi\Application\View\Extension\ConfigExtension']->config("login_remember_default")) ? ("checked") : (""));
             echo " />
                      <span class=\"form-check-label\">";
-            // line 84
+            // line 79
             echo twig_escape_filter($this->env, __("Remember me"), "html", null, true);
             echo "</span>
                   </label>
                </div>
             ";
         }
-        // line 88
+        // line 83
         echo "
             <div class=\"form-footer\">
                <button type=\"submit\" name=\"submit\" class=\"btn btn-primary w-100\" tabindex=\"3\">
                   ";
-        // line 91
+        // line 86
         echo twig_escape_filter($this->env, __("Sign in"), "html", null, true);
         echo "
                </button>
             </div>
 
             ";
-        // line 95
+        // line 90
         if ((twig_length_filter($this->env, ($context["errors"] ?? null)) > 0)) {
-            // line 96
+            // line 91
             echo "               <hr />
                <div class=\"alert alert-danger\" role=\"alert\">
                   ";
-            // line 98
+            // line 93
             echo twig_escape_filter($this->env, ($context["errors"] ?? null), "html", null, true);
             echo "
                </div>
             ";
         }
-        // line 101
+        // line 96
         echo "         </div>
 
          ";
-        // line 103
+        // line 98
         if (($context["right_panel"] ?? null)) {
-            // line 104
+            // line 99
             echo "            <div class=\"col-auto px-2 text-center\">
                ";
-            // line 105
+            // line 100
             if ((twig_length_filter($this->env, ($context["text_login"] ?? null)) > 0)) {
-                // line 106
+                // line 101
                 echo "                  <div class=\"rich_text_container\">
                      ";
-                // line 107
+                // line 102
                 echo $this->extensions['Glpi\Application\View\Extension\DataHelpersExtension']->getSafeHtml(($context["text_login"] ?? null));
                 echo "
                   </div>
                ";
             }
-            // line 110
+            // line 105
             echo "
                ";
-            // line 111
+            // line 106
             if ($this->extensions['Glpi\Application\View\Extension\ConfigExtension']->config("use_public_faq")) {
-                // line 112
+                // line 107
                 echo "                  <hr />
 
                   <a class=\"btn btn-outline-secondary btn-icon\" href=\"front/helpdesk.faq.php\">
                      <i class=\"fas fa-question\"></i>&nbsp;
                      ";
-                // line 116
+                // line 111
                 echo twig_escape_filter($this->env, __("FAQ"), "html", null, true);
                 echo "
                   </a>
                ";
             }
-            // line 119
+            // line 114
             echo "
                ";
-            // line 120
+            // line 115
             echo twig_escape_filter($this->env, $this->extensions['Glpi\Application\View\Extension\PluginExtension']->callPluginHook(twig_constant("Glpi\\Plugin\\Hooks::DISPLAY_LOGIN")), "html", null, true);
             echo "
             </div>
          ";
         }
-        // line 123
+        // line 118
         echo "      </div>
    </form>
 ";
     }
 
-    // line 127
+    // line 122
     public function block_footer_block($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 128
+        // line 123
         echo "   ";
         echo ($context["copyright_message"] ?? null);
         echo "
 ";
     }
 
-    // line 131
+    // line 126
     public function block_javascript_block($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 132
+        // line 127
         echo "<script type=\"text/javascript\">
    \$(function () {
 \$('#login_name').focus();
@@ -296,7 +278,7 @@ class __TwigTemplate_43ed71e773a8f32b6c7a7ebacca06b0e extends Template
      */
     public function getDebugInfo()
     {
-        return array (  270 => 132,  266 => 131,  259 => 128,  255 => 127,  249 => 123,  243 => 120,  240 => 119,  234 => 116,  228 => 112,  226 => 111,  223 => 110,  217 => 107,  214 => 106,  212 => 105,  209 => 104,  207 => 103,  203 => 101,  197 => 98,  193 => 96,  191 => 95,  184 => 91,  179 => 88,  172 => 84,  166 => 83,  162 => 81,  160 => 80,  157 => 79,  151 => 76,  145 => 75,  142 => 74,  140 => 73,  137 => 72,  131 => 69,  125 => 68,  122 => 67,  120 => 66,  114 => 63,  111 => 62,  104 => 58,  100 => 57,  97 => 56,  95 => 55,  90 => 53,  83 => 49,  79 => 48,  73 => 45,  65 => 40,  61 => 39,  57 => 38,  52 => 37,  48 => 36,  37 => 34,);
+        return array (  252 => 127,  248 => 126,  241 => 123,  237 => 122,  231 => 118,  225 => 115,  222 => 114,  216 => 111,  210 => 107,  208 => 106,  205 => 105,  199 => 102,  196 => 101,  194 => 100,  191 => 99,  189 => 98,  185 => 96,  179 => 93,  175 => 91,  173 => 90,  166 => 86,  161 => 83,  154 => 79,  148 => 78,  144 => 76,  142 => 75,  137 => 72,  131 => 69,  125 => 68,  122 => 67,  120 => 66,  114 => 63,  111 => 62,  104 => 58,  100 => 57,  97 => 56,  95 => 55,  90 => 53,  83 => 49,  79 => 48,  73 => 45,  65 => 40,  61 => 39,  57 => 38,  52 => 37,  48 => 36,  37 => 34,);
     }
 
     public function getSourceContext()

@@ -842,3 +842,69 @@ External #2: Launch checkAllUpdates
 External #3: Launch DomainsAlert
 2024-03-20 08:58:10 [@glpi]
 External #4: Launch Cleanoldagents
+2024-03-25 09:55:29 [@glpi]
+Internal #1: Launch contract
+2024-03-25 09:56:03 [@glpi]
+External #1: Launch PurgeLogs
+2024-03-25 09:56:03 [@glpi]
+External #2: Launch checkAllUpdates
+2024-03-25 09:56:03 [@glpi]
+External #3: Launch DomainsAlert
+2024-03-25 09:56:03 [@glpi]
+External #4: Launch cleanorphans
+2024-03-25 09:56:03 [@glpi]
+External #5: Launch pendingreason_autobump_autosolve
+2024-03-25 09:58:03 [@glpi]
+External #1: Launch Cleanoldagents
+2024-03-25 10:00:03 [@glpi]
+External #1: Nothing to Launch
+2024-03-25 10:02:03 [@glpi]
+External #1: Nothing to Launch
+2024-03-28 12:02:10 [@glpi]
+External #1: Launch pendingreason_autobump_autosolve
+2024-03-28 12:02:11 [@glpi]
+External #2: Launch checkAllUpdates
+2024-03-28 12:02:11 [@glpi]
+External #3: Launch DomainsAlert
+2024-03-28 12:02:11 [@glpi]
+External #4: Launch Cleanoldagents
+2024-03-28 12:02:40 [@glpi]
+Internal #1: Launch infocom
+2024-03-28 12:03:10 [@glpi]
+Internal #1: Launch mailgate
+2024-03-28 12:03:33 [@glpi]
+Internal #1: Launch session
+2024-03-28 12:03:58 [@glpi]
+Internal #1: Launch graph
+2024-03-28 12:04:05 [@glpi]
+External #1: Nothing to Launch
+2024-03-28 12:06:03 [@glpi]
+Internal #1: Launch reservation
+2024-03-28 12:06:07 [@glpi]
+External #1: Nothing to Launch
+2024-03-28 12:08:31 [@glpi]
+External #1: Nothing to Launch
+2024-03-28 12:09:10 [@glpi]
+Internal #1: Launch closeticket
+2024-03-28 12:10:12 [@glpi]
+External #1: Nothing to Launch
+2024-03-28 12:11:56 [@glpi]
+Internal #1: Launch alertnotclosed
+2024-03-28 12:12:05 [@glpi]
+External #1: Nothing to Launch
+2024-03-28 12:12:22 [@glpi]
+Internal #1: Launch slaticket
+2024-03-28 12:13:01 [@glpi]
+Internal #1: Launch createinquest
+2024-03-28 12:13:54 [@glpi]
+Internal #1: Launch watcher
+2024-03-28 12:14:05 [@glpi]
+External #1: Nothing to Launch
+2024-03-28 12:14:26 [@glpi]
+Internal #1: Launch RecurrentItems
+2024-03-28 12:16:12 [@glpi]
+External #1: Nothing to Launch
+2024-03-28 12:16:40 [@glpi]
+Internal #1: Launch planningrecall
+2024-03-28 12:18:05 [@glpi]
+External #1: Nothing to Launch
